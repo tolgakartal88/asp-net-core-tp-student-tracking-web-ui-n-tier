@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0UwddC4sPqrTyglQK1Q6r6Nvar8T4YgpFHk9fYNTttdP6RrKAg+XQITfdjeh9BBo4OPZ/7f1eVN5gJJ+3505VQ==",
+  "dgSpecHash": "YVAF4hfYOQX1ac/QAS/fgd8BG92p9n5PLg40CW3HYP/4wLFx+wWinkaocYe6YT1VzytnopVHRSI8fM0ULoub8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\asp-net-core-tp-student-tracking-web-ui-n-tier\\TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC-TOLGA\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\PC-TOLGA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

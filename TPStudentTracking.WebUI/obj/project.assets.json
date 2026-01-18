@@ -4152,11 +4152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\asp-net-core-tp-student-tracking-web-ui-n-tier\\TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj",
       "projectName": "TPStudentTracking.WebUI",
-      "projectPath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj",
+      "projectPath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\asp-net-core-tp-student-tracking-web-ui-n-tier\\TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj",
       "packagesPath": "C:\\Users\\PC-TOLGA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\asp-net-core-tp-student-tracking-web-ui-n-tier\\TPStudentTracking.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -4180,8 +4180,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj": {
-              "projectPath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj"
+            "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\asp-net-core-tp-student-tracking-web-ui-n-tier\\TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj": {
+              "projectPath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\asp-net-core-tp-student-tracking-web-ui-n-tier\\TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj"
             }
           }
         }

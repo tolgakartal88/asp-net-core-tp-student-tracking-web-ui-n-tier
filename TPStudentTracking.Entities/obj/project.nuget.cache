@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IyzF6UZ3g5Mpg84HWIIwjAseYvuRdUXgo/VGyTsw5mukQU0QnvhzN+oEFuVDmnverKwq34ITrfUcVMUyUwuHiA==",
+  "dgSpecHash": "mTvc/TJ4DwmXAXsCYe8Acxwr+zfQVwm5fnSRXqGtoC2dQBjKysgYcAyVU+k4Udqo/yU44DCKi559suZKFZD7SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Entities\\TPStudentTracking.Entities.csproj",
+  "projectFilePath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\asp-net-core-tp-student-tracking-web-ui-n-tier\\TPStudentTracking.Entities\\TPStudentTracking.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPStudentTracking.Entities", "TPStudentTracking.Entities\TPStudentTracking.Entities.csproj", "{800CDAEA-9FBC-4C1A-985A-3429E7A019C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPStudentTracking.Entities", "TPStudentTracking.Entities\TPStudentTracking.Entities.csproj", "{800CDAEA-9FBC-4C1A-985A-3429E7A019C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPStudentTracking.Data", "TPStudentTracking.Data\TPStudentTracking.Data.csproj", "{F186F58D-B0B4-467A-873F-23E68D56708B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPStudentTracking.Data", "TPStudentTracking.Data\TPStudentTracking.Data.csproj", "{F186F58D-B0B4-467A-873F-23E68D56708B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPStudentTracking.Bussines", "TPStudentTracking.Bussines\TPStudentTracking.Bussines.csproj", "{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPStudentTracking.Bussines", "TPStudentTracking.Bussines\TPStudentTracking.Bussines.csproj", "{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPStudentTracking.WebUI", "TPStudentTracking.WebUI\TPStudentTracking.WebUI.csproj", "{E448D659-F37B-48CF-A5DB-520FD7CD1F62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPStudentTracking.WebUI", "TPStudentTracking.WebUI\TPStudentTracking.WebUI.csproj", "{E448D659-F37B-48CF-A5DB-520FD7CD1F62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

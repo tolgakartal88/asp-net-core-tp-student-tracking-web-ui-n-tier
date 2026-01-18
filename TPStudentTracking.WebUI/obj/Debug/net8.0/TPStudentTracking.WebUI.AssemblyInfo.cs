@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPStudentTracking.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d2dfad1490441a370e457de48dd1617ecf4c760")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPStudentTracking.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPStudentTracking.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

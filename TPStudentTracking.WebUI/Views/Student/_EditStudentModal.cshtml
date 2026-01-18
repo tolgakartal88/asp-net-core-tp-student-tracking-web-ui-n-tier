@@ -1,0 +1,158 @@
+﻿@model TPStudentTracking.WebUI.ViewModels.Student.EditStudentViewModel
+@{
+    Layout = null;
+}
+
+
+<div class="modal-header">
+    <h5 class="modal-title">Öğrenci Düzenle</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<div class="modal-body">
+    <div class="d-flex align-items-start">
+        <!-- SOL TAB MENÜ -->
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            <!-- GENEL BTN -->
+            <button class="nav-link active" id="v-pills-general-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-general"
+                    type="button"
+                    role="tab"
+                    aria-selected="true">
+                Genel
+            </button>
+            <!-- İLETİŞİM BTN-->
+            <button class="nav-link" id="v-pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-selected="false">
+                İletişim
+            </button>
+            <!-- DOSYALA BTN -->
+            <button class="nav-link" id="v-pills-files-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-files"
+                    type="button"
+                    role="tab"
+                    aria-selected="false">
+                Dosyalar
+            </button>
+            <!-- DİĞER BTN -->
+            <button class="nav-link" id="v-pills-others-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-others"
+                    type="button"
+                    role="tab"
+                    aria-selected="false">
+                Diğer
+            </button>
+
+        </div>
+
+        <!-- TAB İÇERİK -->
+        <div class="tab-content flex-fill" id="v-pills-tabContent">
+
+            <!-- GENEL -->
+            <div class="tab-pane fade show active" id="v-pills-general" role="tabpanel">
+
+                <div class="mb-3">
+                    <form id="editStudentForm" method="post">
+
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Numara</label>
+                            <input asp-for="StudentId" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Ad</label>
+                            <input asp-for="FirstName" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Soyad</label>
+                            <input asp-for="LastName" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Sınıf</label>
+                            <select asp-for="ClassRoomId"
+                                    asp-items="Model.ClassRooms"
+                                    class="form-control">
+                                <option value="">-- Sınıf Seçiniz --</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Doğum Tarihi</label>
+                            <input asp-for="BirthDate" type="date" class="form-control" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <!-- İLETİŞİM -->
+            <div class="tab-pane fade" id="v-pills-contact" role="tabpanel">
+                <div class="mb-3">
+                    <label class="form-label">Veli Adı Soyadı</label>
+                    <input class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Veli Telefon</label>
+                    <input class="form-control phone-mask" placeholder="+90(555) 555 55 55" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">İkinci Kişi Adı Soyadı</label>
+                    <input class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">İkinci Kişi Telefon</label>
+                    <input class="form-control phone-mask" placeholder="+90(555) 555 55 55" />
+                </div>
+            </div>
+
+            <!-- DOSYALA -->
+            <div class="tab-pane fade" id="v-pills-files" role="tabpanel">
+                <div class="mb-3">
+                    <div class="mb-3">
+                        <input type="file" class="form-control" />
+                    </div>
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Yüklenme Tarihi</th>
+                                <th>Açıklama</th>
+                                <th>İndir</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- DİĞER -->
+            <div class="tab-pane fade" id="v-pills-others" role="tabpanel">
+                <div class="mb-3">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button type="submit" form="editStudentForm" class="btn btn-success">
+        Güncelle
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+</div>

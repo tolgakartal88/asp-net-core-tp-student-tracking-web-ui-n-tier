@@ -1,0 +1,11 @@
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\bin\Debug\net8.0\TPStudentTracking.Entities.deps.json
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\bin\Debug\net8.0\TPStudentTracking.Entities.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\bin\Debug\net8.0\TPStudentTracking.Entities.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\TPStudentTracking.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\TPStudentTracking.Entities.AssemblyInfoInputs.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\TPStudentTracking.Entities.AssemblyInfo.cs
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\TPStudentTracking.Entities.csproj.CoreCompileInputs.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\TPStudentTracking.Entities.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\refint\TPStudentTracking.Entities.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\TPStudentTracking.Entities.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Entities\obj\Debug\net8.0\ref\TPStudentTracking.Entities.dll

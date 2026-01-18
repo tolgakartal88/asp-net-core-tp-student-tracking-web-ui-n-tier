@@ -1,0 +1,17 @@
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\bin\Debug\net8.0\TPStudentTracking.Data.deps.json
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\bin\Debug\net8.0\TPStudentTracking.Data.runtimeconfig.json
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\bin\Debug\net8.0\TPStudentTracking.Data.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\bin\Debug\net8.0\TPStudentTracking.Data.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\bin\Debug\net8.0\TPStudentTracking.Entities.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\bin\Debug\net8.0\TPStudentTracking.Entities.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.csproj.AssemblyReference.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.AssemblyInfoInputs.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.AssemblyInfo.cs
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.csproj.CoreCompileInputs.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStuden.96F8B295.Up2Date
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\refint\TPStudentTracking.Data.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\TPStudentTracking.Data.genruntimeconfig.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Data\obj\Debug\net8.0\ref\TPStudentTracking.Data.dll

@@ -1,0 +1,359 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.bussines\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|solutionrelative:tpstudenttracking.bussines\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|c:\\users\\pc-tolga\\source\\repos\\tpstudenttracking\\tpstudenttracking.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\views\\student\\_editstudentmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\views\\student\\_editstudentmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\viewmodels\\student\\editstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\viewmodels\\student\\editstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\viewmodels\\student\\createstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\viewmodels\\student\\createstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\viewmodels\\student\\studentlistpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\viewmodels\\student\\studentlistpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\viewmodels\\student\\studentviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\viewmodels\\student\\studentviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\viewmodels\\student\\deletestudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\viewmodels\\student\\deletestudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\wwwroot\\css\\form-extensions.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\wwwroot\\css\\form-extensions.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\wwwroot\\css\\form-extensions.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\wwwroot\\css\\form-extensions.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800CDAEA-9FBC-4C1A-985A-3429E7A019C4}|TPStudentTracking.Entities\\TPStudentTracking.Entities.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.entities\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800CDAEA-9FBC-4C1A-985A-3429E7A019C4}|TPStudentTracking.Entities\\TPStudentTracking.Entities.csproj|solutionrelative:tpstudenttracking.entities\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.bussines\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|solutionrelative:tpstudenttracking.bussines\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.bussines\\services\\classroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|solutionrelative:tpstudenttracking.bussines\\services\\classroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\mapping\\mappingclassroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\mapping\\mappingclassroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448D659-F37B-48CF-A5DB-520FD7CD1F62}|TPStudentTracking.WebUI\\TPStudentTracking.WebUI.csproj|solutionrelative:tpstudenttracking.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.bussines\\services\\interfaces\\iclassroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408B9EBC-E0F5-49B2-B888-2ED0C7E086F2}|TPStudentTracking.Bussines\\TPStudentTracking.Bussines.csproj|solutionrelative:tpstudenttracking.bussines\\services\\interfaces\\iclassroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800CDAEA-9FBC-4C1A-985A-3429E7A019C4}|TPStudentTracking.Entities\\TPStudentTracking.Entities.csproj|C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\tpstudenttracking.entities\\entities\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800CDAEA-9FBC-4C1A-985A-3429E7A019C4}|TPStudentTracking.Entities\\TPStudentTracking.Entities.csproj|solutionrelative:tpstudenttracking.entities\\entities\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:29:01.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAwwJYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:44:05.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentListPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\StudentListPageViewModel.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\ViewModels\\Student\\StudentListPageViewModel.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\StudentListPageViewModel.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\ViewModels\\Student\\StudentListPageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:59:56.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "form-extensions.css",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T18:59:54.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T19:08:22.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_EditStudentModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Student\\_EditStudentModal.cshtml",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\Views\\Student\\_EditStudentModal.cshtml",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Student\\_EditStudentModal.cshtml",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\Views\\Student\\_EditStudentModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:28:44.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditStudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\EditStudentViewModel.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\ViewModels\\Student\\EditStudentViewModel.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\EditStudentViewModel.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\ViewModels\\Student\\EditStudentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T23:26:42.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.Bussines\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\StudentService.cs",
+              "RelativeToolTip": "TPStudentTracking.Bussines\\Services\\StudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:43:50.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:22:35.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateStudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\CreateStudentViewModel.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\ViewModels\\Student\\CreateStudentViewModel.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\CreateStudentViewModel.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\ViewModels\\Student\\CreateStudentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T20:53:42.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "form-extensions.css",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\wwwroot\\css\\form-extensions.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T18:59:25.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteStudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\DeleteStudentViewModel.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\ViewModels\\Student\\DeleteStudentViewModel.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\DeleteStudentViewModel.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\ViewModels\\Student\\DeleteStudentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:13:46.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\StudentViewModels.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\ViewModels\\Student\\StudentViewModels.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\ViewModels\\Student\\StudentViewModels.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\ViewModels\\Student\\StudentViewModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:32:24.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Entities\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.Entities\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Entities\\Entities\\Student.cs",
+              "RelativeToolTip": "TPStudentTracking.Entities\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:43:41.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAACgAAAAAAAAAAAAwwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T07:12:35.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.Bussines\\Services\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "TPStudentTracking.Bussines\\Services\\Interfaces\\IStudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T20:31:18.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClassRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\ClassRoomService.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.Bussines\\Services\\ClassRoomService.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\ClassRoomService.cs",
+              "RelativeToolTip": "TPStudentTracking.Bussines\\Services\\ClassRoomService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:13:18.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Program.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T20:51:37.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MappingClassRoom.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Mapping\\MappingClassRoom.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.WebUI\\Mapping\\MappingClassRoom.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.WebUI\\Mapping\\MappingClassRoom.cs",
+              "RelativeToolTip": "TPStudentTracking.WebUI\\Mapping\\MappingClassRoom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:01:35.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Trainer.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Entities\\Entities\\Trainer.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.Entities\\Entities\\Trainer.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Entities\\Entities\\Trainer.cs",
+              "RelativeToolTip": "TPStudentTracking.Entities\\Entities\\Trainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:09:38.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IClassRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\Interfaces\\IClassRoomService.cs",
+              "RelativeDocumentMoniker": "TPStudentTracking.Bussines\\Services\\Interfaces\\IClassRoomService.cs",
+              "ToolTip": "C:\\Users\\PC-TOLGA\\source\\repos\\TPStudentTracking\\TPStudentTracking.Bussines\\Services\\Interfaces\\IClassRoomService.cs",
+              "RelativeToolTip": "TPStudentTracking.Bussines\\Services\\Interfaces\\IClassRoomService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T20:45:53.815Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿@model TPStudentTracking.Entities.Entities.Student
+
+<h2>Öğrenci Sil</h2>
+
+<p>
+    <strong>@Model.FirstName @Model.LastName</strong> adlı öğrenciyi silmek istiyor musunuz?
+</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="StudentId" />
+
+    <button type="submit" class="btn btn-danger">Sil</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

@@ -1,0 +1,448 @@
+﻿@model TPStudentTracking.WebUI.ViewModels.Student.StudentListPageViewModel
+<h2>Öğrenci Listesi</h2>
+<div class="card card-default">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-10 p-2">
+                <select class="form-select select2"
+                        asp-for="CreateStudent.ClassRoomId"
+                        asp-items="Model.CreateStudent.ClassRooms">
+                    <option value="">-- Sınıf Seçiniz --</option>
+                </select>
+            </div>
+            <div class="col-md-2 p-2">
+                <button class="btn btn-primary w-100 text-center">
+                    Ara
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card card-default">
+    <div class="card-body">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Yeni Öğrenci</button>
+        <div class="container mt-3">
+            <table id="studentTable" class="table table-bordered table-striped mt-3">
+                <thead>
+                    <tr>
+                        <th>Numara</th>
+                        <th>Ad</th>
+                        <th>Soyad</th>
+                        <th>Doğum Tarihi</th>
+                        <th>Sınıf</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody">
+                    @foreach (var item in Model.StudentList)
+                    {
+                        <tr>
+                            <td>@item.StudentId</td>
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.BirthDate.ToShortDateString()</td>
+                            <td>@item.ClassRoomName</td>
+                            <td>
+                                <button type="button"
+                                        class="btn btn-warning btn-edit"
+                                        data-id="@item.Id">
+                                    Düzenle
+                                </button>
+                                <button class="btn btn-danger btn-delete"
+                                        data-id="@item.Id">
+                                    Sil
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="editStudentModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" id="editStudentModalContent">
+            <!-- AJAX ile dolacak -->
+        </div>
+    </div>
+</div>
+<div class="modal" id="exampleModal" tabindex="-1">
+
+    @Html.AntiForgeryToken()
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form id="createStudentForm" name="createStudentForm" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Öğrenci Bilgileri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex align-items-start">
+
+                        <!-- SOL TAB MENÜ -->
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-general-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-general"
+                                    type="button"
+                                    role="tab"
+                                    aria-selected="true">
+                                Genel
+                            </button>
+
+                            <button class="nav-link" id="v-pills-contact-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-contact"
+                                    type="button"
+                                    role="tab"
+                                    aria-selected="false">
+                                İletişim
+                            </button>
+
+                            <button class="nav-link" id="v-pills-files-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-files"
+                                    type="button"
+                                    role="tab"
+                                    aria-selected="false">
+                                Dosyalar
+                            </button>
+
+                            <button class="nav-link" id="v-pills-others-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-others"
+                                    type="button"
+                                    role="tab"
+                                    aria-selected="false">
+                                Diğer
+                            </button>
+                        </div>
+
+                        <!-- TAB İÇERİK -->
+                        <div class="tab-content flex-fill" id="v-pills-tabContent">
+
+                            <!-- GENEL -->
+                            <div class="tab-pane fade show active" id="v-pills-general" role="tabpanel">
+
+                                <div class="mb-3">
+                                    <label class="form-label">Numara</label>
+                                    <input asp-for="CreateStudent.StudentId" class="form-control" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Ad</label>
+                                    <input asp-for="CreateStudent.FirstName" class="form-control" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Soyad</label>
+                                    <input asp-for="CreateStudent.LastName" class="form-control" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Sınıf</label>
+                                    <select class="form-select select2"
+                                            asp-for="CreateStudent.ClassRoomId"
+                                            asp-items="Model.CreateStudent.ClassRooms">
+                                        <option value="">-- Sınıf Seçiniz --</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Doğum Tarihi</label>
+                                    <input asp-for="CreateStudent.BirthDate" type="date" class="form-control" />
+                                </div>
+
+                            </div>
+
+                            <!-- İLETİŞİM -->
+                            <div class="tab-pane fade" id="v-pills-contact" role="tabpanel">
+
+                                <div class="mb-3">
+                                    <label class="form-label">Veli Adı Soyadı</label>
+                                    <input class="form-control" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Veli Telefon</label>
+                                    <input class="form-control phone-mask" placeholder="+90(555) 555 55 55" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">İkinci Kişi Adı Soyadı</label>
+                                    <input class="form-control" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">İkinci Kişi Telefon</label>
+                                    <input class="form-control phone-mask" placeholder="+90(555) 555 55 55" />
+                                </div>
+
+                            </div>
+
+                            <!-- DOSYALAR -->
+                            <div class="tab-pane fade" id="v-pills-files" role="tabpanel">
+                                <div class="mb-3">
+                                    <input type="file" class="form-control" />
+                                </div>
+
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Yüklenme Tarihi</th>
+                                            <th>Açıklama</th>
+                                            <th>İndir</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+
+                            <!-- DİĞER -->
+                            <div class="tab-pane fade" id="v-pills-others" role="tabpanel">
+                                ...
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Kaydet</button>
+                    <a asp-action="Index" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+    <script src="~/lib/select2/js/select2.full.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+        $(document).on("click", ".btn-edit", function () {
+            var id = $(this).data("id");
+
+            $.get("/Student/Edit/" + id)
+                .done(function (html) {
+                    $('#editStudentModalContent').html(html);
+                })
+                .fail(function (xhr) {
+                    $('#editStudentModalContent').html(xhr.responseText);
+                });
+            var modal = new bootstrap.Modal(
+                document.getElementById('editStudentModal')
+            );
+            modal.show();
+        });
+
+        $(document).on('submit', '#editStudentForm', function (e) {
+
+            e.preventDefault(); // 🔥 SAYFA YENİLENMESİN
+
+            var form = $(this);
+
+            $.ajax({
+                url: '/Student/Edit',
+                type: 'POST',
+                data: form.serialize(),
+                success: function (response) {
+
+                    if (response.success) {
+
+                        // 👉 TABLO SATIRINI GÜNCELLE
+                        var row = $('button[data-id="' + response.id + '"]').closest('tr');
+
+                        row.find('td:eq(0)').text(response.studentId);
+                        row.find('td:eq(1)').text(response.firstName);
+                        row.find('td:eq(2)').text(response.lastName);
+                        row.find('td:eq(4)').text(response.classRoomName);
+
+                        // 👉 MODALI KAPAT
+                        bootstrap.Modal.getInstance(
+                            document.getElementById('editStudentModal')
+                        ).hide();
+                    }
+                    else {
+                        // validation döndüyse modalı tekrar doldur
+                        $('#editStudentModalContent').html(response);
+                    }
+                }
+            });
+        });
+
+        $(document).on("click", ".btn-delete", function () {
+            if (!confirm("Silmek istediğine emin misin?")) return;
+
+            $.post("/Student/Delete",
+                { id: $(this).data("id") },
+                function () {
+                    location.reload(); // veya satırı DOM’dan kaldır
+                });
+        });
+
+        // ===============================
+        // SELECT2 - MODAL + TAB UYUMLU
+        // ===============================
+        const modal = $('#exampleModal');
+        const form = $('#createStudentForm');
+        const selectSelector = '.select2';
+
+        // 🔓 MODAL AÇILINCA
+        modal.on('shown.bs.modal', function () {
+
+            const $select = modal.find(selectSelector);
+            // Normal inputlar
+            form[0].reset();
+
+            // Select2 temizliği
+            form.find('.select2').val(null).trigger('change');
+
+            // Validation mesajlarını temizle
+            form.find('.text-danger').text('');
+            $select.select2({
+                theme: 'bootstrap-5',
+                dropdownParent: modal,
+                placeholder: '-- Sınıf Seçiniz --',
+                allowClear: true,
+                width: '100%'
+            });
+        });
+
+        // 🔒 MODAL KAPANINCA (EN KRİTİK KISIM)
+        modal.on('hidden.bs.modal', function () {
+
+            const $select = modal.find(selectSelector);
+
+            if ($('.select2').data('select2')) {
+                $('.select2').select2('destroy');
+            }
+            // Form + değer temizliği
+            $('#createStudentForm')[0].reset();
+            $select.val(null).trigger('change');
+        });
+        // TAB değişince select2 bozulmasın
+        $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function () {
+            var x = $('.select2');
+            if ($('.select2') != undefined)
+                $('.select2').select2('close');
+        });
+
+        // ===============================
+        // PHONE MASK
+        // ===============================
+        document.addEventListener("DOMContentLoaded", function () {
+            Inputmask({
+                mask: "+\\90 (999) 999 99 99",
+                showMaskOnHover: false,
+                clearIncomplete: true,
+                removeMaskOnSubmit: true
+            }).mask(".phone-mask");
+        });
+        var table = $('#studentTable').DataTable({
+            language: {
+                url: "//cdn.datatables.net/plug-ins/1.13.8/i18n/tr.json"
+            },
+            columnDefs: [
+                { targets: '_all', searchable: true }
+            ],
+            pagingType: "simple_numbers",
+
+            // 🔥 ARAMA + PAGINATION BOOTSTRAP 5 DÜZENİ
+            dom: `
+                                            <"row mb-3"
+                                                <"col-md-6 d-flex align-items-center"l>
+                                                <"col-md-6 d-flex justify-content-end"f>
+                                            >
+                                            rt
+                                            <"row mt-3"
+                                                <"col-md-6"i>
+                                                <"col-md-6 d-flex justify-content-end"p>
+                                            >
+                                        `,
+
+            initComplete: function () {
+
+                // 🔍 SEARCH INPUT
+                $('.dataTables_filter input')
+                    .addClass('form-control form-control-sm')
+                    .attr('placeholder', 'Arayın...')
+                    .css('width', '250px');
+
+                // 📄 LENGTH SELECT
+                $('.dataTables_length select')
+                    .addClass('form-select form-select-sm')
+                    .css('width', 'auto');
+            }
+        });
+
+        /* 📄 LENGTH (Kayıt Sayısı) */
+        $('.dataTables_length')
+            .addClass('mb-3');
+
+        $('.dataTables_length select')
+            .addClass('form-select form-select-sm')
+            .css('width', 'auto');
+
+        /* 📌 PAGINATION */
+        $('.dataTables_paginate')
+            .addClass('mt-3');
+
+        $('.dataTables_paginate ul.pagination')
+            .addClass('gap-1'); // BUTONLAR ARASI BOŞLUK
+
+        // ===============================
+        // FORM SUBMIT (AJAX)
+        // ===============================
+        $("#createStudentForm").submit(function (e) {
+            e.preventDefault();
+
+            $.ajax({
+                url: '@Url.Action("Create", "Student")',
+                type: 'POST',
+                data: $(this).serialize(),
+                headers: {
+                    'RequestVerificationToken':
+                        $('input[name="__RequestVerificationToken"]').val()
+                },
+                success: function (response) {
+
+                    if (response.success) {
+
+                        const s = response.student;
+
+                        var table = $('#studentTable').DataTable();
+
+                        table.row.add([
+                            s.studentId,
+                            s.firstName,
+                            s.lastName,
+                            s.birthDate.substring(0, 10),
+                            s.classRoomName,
+                            `
+                                                    <a href="/Student/Edit/${s.id}" class="btn btn-warning btn-sm">Düzenle</a>
+                                                    <a href="/Student/Delete/${s.id}" class="btn btn-danger btn-sm">Sil</a>
+                                                    `
+                        ]).draw(false);
+                        table.ajax.reload(null, false);
+
+                    }
+                    else {
+                        $("span.text-danger").text("");
+
+                        $.each(response.errors, function (key, messages) {
+                            let fieldName = key.replace("CreateStudent.", "");
+
+                            $(`[data-valmsg-for="CreateStudent.${fieldName}"]`)
+                                .text(messages[0]);
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+}

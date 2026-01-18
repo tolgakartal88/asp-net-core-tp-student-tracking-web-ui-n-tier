@@ -1,0 +1,17 @@
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\bin\Debug\net8.0\TPStudentTracking.Bussines.deps.json
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\bin\Debug\net8.0\TPStudentTracking.Bussines.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\bin\Debug\net8.0\TPStudentTracking.Bussines.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\bin\Debug\net8.0\TPStudentTracking.Data.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\bin\Debug\net8.0\TPStudentTracking.Entities.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\bin\Debug\net8.0\TPStudentTracking.Data.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\bin\Debug\net8.0\TPStudentTracking.Entities.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStudentTracking.Bussines.csproj.AssemblyReference.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStudentTracking.Bussines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStudentTracking.Bussines.AssemblyInfoInputs.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStudentTracking.Bussines.AssemblyInfo.cs
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStudentTracking.Bussines.csproj.CoreCompileInputs.cache
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStuden.40B7986D.Up2Date
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStudentTracking.Bussines.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\refint\TPStudentTracking.Bussines.dll
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\TPStudentTracking.Bussines.pdb
+C:\Users\PC-TOLGA\source\repos\TPStudentTracking\TPStudentTracking.Bussines\obj\Debug\net8.0\ref\TPStudentTracking.Bussines.dll
